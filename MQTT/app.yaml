@@ -19,12 +19,12 @@ variables:
   - name: mqtt_port
     inputType: FreeText
     description: The port of your MQTT instance
-    defaultValue: 1883
+    defaultValue: 8883
     required: true
   - name: mqtt_username
     inputType: FreeText
     description: Your MQTT username
-    defaultValue: foo
+    defaultValue: mgenio
     required: true
   - name: mqtt_version
     inputType: FreeText
@@ -34,7 +34,7 @@ variables:
   - name: mqtt_password
     inputType: Secret
     description: ''
-    defaultValue: mqtt_password
+    defaultValue: Mgenio1234
     required: true
 dockerfile: build/dockerfile
 runEntryPoint: main.py
