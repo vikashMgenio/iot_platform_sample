@@ -14,7 +14,7 @@ variables:
   - name: mqtt_server
     inputType: FreeText
     description: The address of your MQTT server
-    defaultValue: 61eba4718ac54bbf8b60a947da7ac23a.s1.eu.hivemq.cloud
+    defaultValue: 5d419fcaa7ed4414971058fdef650db6.s1.eu.hivemq.cloud
     required: true
   - name: mqtt_port
     inputType: FreeText
