@@ -224,19 +224,19 @@ topics:
     configuration:
       partitions: 2
       replicationFactor: 2
-      retentionInMinutes: 43200
+      retentionInMinutes: 1008
       retentionInBytes: 5242880
   - name: influxdb
     persisted: false
     configuration:
       partitions: 2
       replicationFactor: 2
-      retentionInMinutes: 43200
+      retentionInMinutes: 1008
       retentionInBytes: 5242880
   - name: detection-results
     persisted: false
     configuration:
       partitions: 2
       replicationFactor: 2
-      retentionInMinutes: 43200
+      retentionInMinutes: 1008
       retentionInBytes: 5242880
