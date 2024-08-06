@@ -32,7 +32,7 @@ deployments:
         inputType: FreeText
         description: The address of your MQTT server
         required: true
-        value: broker.hivemq.com
+        value: 5d419fcaa7ed4414971058fdef650db6.s1.eu.hivemq.cloud
       - name: mqtt_port
         inputType: FreeText
         description: The port of your MQTT instance
