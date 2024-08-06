@@ -14,17 +14,17 @@ variables:
   - name: INFLUXDB_HOST
     inputType: FreeText
     description: Host address for the InfluxDB instance.
-    defaultValue: eu-central-1-1.aws.cloud2.influxdata.com
+    defaultValue: us-east-1-1.aws.cloud2.influxdata.com
     required: true
   - name: INFLUXDB_TOKEN
     inputType: FreeText
     description: Authentication token to access InfluxDB.
-    defaultValue: DYRhhzPV2ESqoI5MYzLGsanj7PjE0b9vwQPEzfZldmnnmIeWL-B0unox8PcInk8ek3xzsXQK7BnqGYnnuNCBnQ==
+    defaultValue: otH27gQGb0_jfX23a97cSxgThgODChC-x1ScXaz_l4Bib_OgPRTgJulF_eCorb-ZJPsEp4DqM47xYrs7CVnkCA==
     required: true
   - name: INFLUXDB_ORG
     inputType: FreeText
     description: Organization name in InfluxDB.
-    defaultValue: 6a841c0c08328fb1
+    defaultValue: b2f03312964087cd
     required: true
   - name: INFLUXDB_DATABASE
     inputType: FreeText
