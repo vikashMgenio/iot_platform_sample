@@ -34,7 +34,7 @@ variables:
   - name: mqtt_password
     inputType: Secret
     description: ''
-    defaultValue: Mgenio1234
+    defaultValue: 
     required: true
 dockerfile: build/dockerfile
 runEntryPoint: main.py
