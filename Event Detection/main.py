@@ -11,7 +11,7 @@ print("Opening input and output topics")
 consumer_topic = client.get_topic_consumer(os.environ["input"], "default-consumer-group")
 producer_topic = client.get_topic_producer(os.environ["output"])
 model = from_pretrained_keras(os.environ["model"])
-
+print(os.environ)
 
 # Callback called for each incoming stream
 def read_stream(consumer_stream: qx.StreamConsumer):
