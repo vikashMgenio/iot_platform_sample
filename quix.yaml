@@ -112,7 +112,7 @@ deployments:
         inputType: OutputTopic
         description: This is the Quix topic that will receive the stream
         required: true
-        value: influxdb
+        value: influxdb1
       - name: task_interval
         inputType: FreeText
         description: Interval to run query. Must be within the InfluxDB notation; 1s, 1m, 1h, 1d, 1w, 1mo, 1y
@@ -157,7 +157,7 @@ deployments:
         inputType: InputTopic
         description: This is the input topic for f1 data
         required: true
-        value: influxdb
+        value: influxdb1
       - name: output
         inputType: OutputTopic
         description: This is the output topic for hard braking events
