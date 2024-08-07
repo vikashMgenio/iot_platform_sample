@@ -69,6 +69,8 @@ measurement_name = os.environ.get("INFLUXDB_MEASUREMENT_NAME", os.environ["outpu
 interval = os.environ.get("task_interval", "5m")
 interval_seconds = interval_to_seconds(interval)
 
+print(os.environ)
+
 # Function to fetch data from InfluxDB and send it to Quix
 # It runs in a continuous loop, periodically fetching data based on the interval.
 def get_data():
