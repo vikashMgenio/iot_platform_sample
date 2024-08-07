@@ -4,7 +4,7 @@ variables:
   - name: output
     inputType: OutputTopic
     description: This is the Quix topic that will receive the stream
-    defaultValue: influxdb
+    defaultValue: influxdb1
     required: true
   - name: task_interval
     inputType: FreeText
