@@ -228,7 +228,7 @@ topics:
       replicationFactor: 2
       retentionInMinutes: 1008
       retentionInBytes: 5242880
-  - name: influxdb
+  - name: influxdb1
     persisted: false
     configuration:
       partitions: 2
